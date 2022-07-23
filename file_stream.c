@@ -29,7 +29,8 @@ int file_stream(char **av)
 	{
 		while ((*token_str = strtok(*lineptr++, delim)) != NULL)
 		{
-			if ((get_factors(atoll(*token_str))) == EXIT_FAILURE)
+			if ((get_factors(atoll(*token_str))) ==
+				EXIT_FAILURE)
 			{
 				fprintf(stderr, "Error computing factors for line %ld\n", line);
 				return (EXIT_FAILURE);

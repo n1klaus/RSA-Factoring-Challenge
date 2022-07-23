@@ -20,5 +20,6 @@
 
 int file_stream(char **av);
 int get_factors(size_t num);
+size_t get_semi_primes(size_t num);
 
 #endif /* __FACTORS_H__ */

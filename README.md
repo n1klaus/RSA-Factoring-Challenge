@@ -57,6 +57,10 @@ The RSA problem is defined as the task of recovering a value `m` such that `c â‰
     gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c -o factors
 
 # Usage
+- Integer Factorization
     ./factors test00
+
+- Prime Factorization
+    ./rsa rsa*
 
 Â© ALX SOFTWARE ENGINEERING 2022

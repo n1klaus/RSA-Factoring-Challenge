@@ -1,11 +1,12 @@
 #include "factors.h"
 /**
- * get_factors - finds two integer factors of a number in the fastest way
+ * get_semi_primes - finds two integer prime factors of a number
+ * in the fastest way
  * @num: integer number
  *
  * Return: 0 if exited successfully, otherwise 1
  */
-int get_factors(size_t num)
+size_t get_semi_primes(size_t num)
 {
 	size_t i = 2, *results = malloc(sizeof(size_t) * BUFSIZ);
 
